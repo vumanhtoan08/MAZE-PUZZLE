@@ -136,7 +136,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &14263335
 Transform:
@@ -368,8 +368,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 033dcc922aa25b6408451fc5f02183c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  width: 9
-  height: 9
+  width: 39
+  height: 39
   wallPrefab: {fileID: 2837389766012664356, guid: 03111e6da519f704782974135d78b609, type: 3}
   floorPrefab: {fileID: 4246047549342848298, guid: 678c1a9ced23aa34f812584c037a2ab7, type: 3}
   containWall: {fileID: 14263335}
@@ -408,7 +408,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1051941048
 Transform:
@@ -552,7 +552,7 @@ MonoBehaviour:
   visited: []
   waiting: []
   path: []
-  moveSpeed: 3
+  moveSpeed: 20
   highlightMaterial: {fileID: 2100000, guid: 94ff34db8e6584c42ab05d3746face59, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
